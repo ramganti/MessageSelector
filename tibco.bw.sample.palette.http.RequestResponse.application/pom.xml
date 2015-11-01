@@ -54,4 +54,11 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.fastconnect.factory.tibco.bw.maven</groupId>
+  		<artifactId>archetype-bw-default-project</artifactId>
+  		<version>2.3.4</version>
+  	</dependency>
+  </dependencies>
 </project>
