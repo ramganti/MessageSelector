@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:http="http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:tp="http://xsd.tns.tibco.com/bw/models/sharedresource/threadpool" xmi:id="_dSvfgVMMEeShGItdt7lKjg" name="tibco.bw.sample.palette.http.requestresponse.RequestingHTTPConnection" type="http:HttpClientConfiguration">
+  <jndi:reference xmi:id="_dSwto1MMEeShGItdt7lKjg" key="threadPoolConfigurationName" type="tp:ThreadPoolConfiguration" value=""/>
+  <jndi:configuration xsi:type="http:HttpClientConfiguration" xmi:id="_dSwtpFMMEeShGItdt7lKjg" maxTotalConnections="0" maxTotalConnectionsPerHost="0" useSingleThreadConnectionManager="true" httpClientVersion="commons" retryCount="3" checkThreadPool="true">
+    <tcpDetails xmi:id="_dSwtpVMMEeShGItdt7lKjg" host="en.wikinews.org"/>
+  </jndi:configuration>
+</jndi:namedResource>
