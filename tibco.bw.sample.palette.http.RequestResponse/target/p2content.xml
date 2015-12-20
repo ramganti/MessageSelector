@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='tibco.bw.sample.palette.http.RequestResponse' version='1.0.0.201512181646' singleton='false'>
+    <update id='tibco.bw.sample.palette.http.RequestResponse' range='[0.0.0,1.0.0.201512181646)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Tibco Bw Sample Palette Http RequestResponse Module'/>
+      <property name='org.eclipse.equinox.p2.provider' value='TIBCO Software Inc.'/>
+      <property name='maven-groupId' value='com.tibco.bw'/>
+      <property name='maven-artifactId' value='tibco.bw.sample.palette.http.RequestResponse'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='tibco.bw.sample.palette.http.RequestResponse' version='1.0.0.201512181646'/>
+      <provided namespace='osgi.bundle' name='tibco.bw.sample.palette.http.RequestResponse' version='1.0.0.201512181646'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='tibco.bw.sample.palette.http.RequestResponse' version='1.0.0.201512181646'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: tibco.bw.sample.palette.http.RequestResponse&#xA;Bundle-Version: 1.0.0.201512181646&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
+ co.bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.pal
+ ette; filter:="(name=bw.file)",com.tibco.bw.palette; filter:="(name=b
+ w.http)",com.tibco.bw.sharedresource.model; filter:="(name=bw.httpcli
+ ent)",com.tibco.bw.sharedresource.model; filter:="(name=bw.httpconnec
+ tor)"
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-Version: 1.2.0 V19 2014-10-01
+Bundle-Version: 1.0.0.201512181646
+Bundle-Name: Tibco Bw Sample Palette Http RequestResponse Module
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Bundle-ManifestVersion: 2
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+Bundle-SymbolicName: tibco.bw.sample.palette.http.RequestResponse
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+
